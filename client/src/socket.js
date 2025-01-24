@@ -1,7 +1,7 @@
 // socket.js
 import { io } from "socket.io-client";
 
-const URL = "http://localhost:4000"; // サーバーのURL
+const URL = "https://prime-bingo-game-server.onrender.com"; // サーバーのURL
 const socket = io(URL);
 
 export default socket;
